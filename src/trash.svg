@@ -1,0 +1,12 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 31 31">
+  <circle id="Container" cx="15.5" cy="15.5" r="15.5" fill="#ff7482"/>
+  <path id="Tracé_2" data-name="Tracé 2" d="M5.937,11.784V23.327H19.669V11.784" transform="translate(2.697)" fill="none" stroke="#fff" stroke-width="1"/>
+  <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(10 5)" fill="none" stroke="#fefefe" stroke-width="1">
+    <circle cx="3" cy="3" r="3" stroke="none"/>
+    <circle cx="3" cy="3" r="2.5" fill="none"/>
+  </g>
+  <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(14 14)" fill="none" stroke="#fefefe" stroke-width="1">
+    <circle cx="2" cy="2" r="2" stroke="none"/>
+    <circle cx="2" cy="2" r="1.5" fill="none"/>
+  </g>
+</svg>
