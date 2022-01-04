@@ -37,7 +37,7 @@ input:hover {
     display: flex;
     justify-content: space-between;
     height: 40px;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .add:hover{

@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.container{
+  width: 100%;
+  height: 100vh;
+  display: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.colors {
+  border: 0.3px solid rgb(256, 256, 256);
+  width: 290px;
+  height: 97px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0px 3px 8px rgb(224, 224, 224);
+  border-radius: 45px;
+  margin-right: 10px;
+}
+.red {
+  display: flex;
+  background-color: #ff1b1b;
+  padding: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 150px;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.red:hover {
+  box-shadow: 0px 3px 8px #707070;
+}
+.blue {
+  display: flex;
+  background-color: #1be8ff;
+  padding: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  border-radius: 150px;
+  border: none;
+}
+.blue:hover {
+  box-shadow: 0px 3px 8px #707070;
+}
+.green {
+  display: flex;
+  background-color: #1bff49;
+  padding: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  border-radius: 150px;
+  border: none;
+}
+.green:hover {
+  box-shadow: 0px 3px 8px #707070;
+}
+.yellow {
+  display: flex;
+  background-color: #ffef1b;
+  padding: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  border-radius: 150px;
+  border: none;
+}
+.yellow:hover {
+  box-shadow: 0px 3px 8px #707070;
 }
 
-.App-link {
-  color: #61dafb;
+.callback{
+  border: none;
+  background-color: white;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  margin-left: 8px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnCallback{
+  margin-left: 350px;
+  margin-top: -65px;
+}
+.callback:hover{
+  box-shadow: 0px 3px 8px #707070;
+}
+.callbackSvg{
+  margin-left: -6px;
+  margin-top: -1px;
+}
+.message{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
 }

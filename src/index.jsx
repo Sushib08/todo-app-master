@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Callback from './Callback';
+import App from './App';
+// import Callback from './Callback';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Callback />
+    <App />
+    {/* <Callback /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
