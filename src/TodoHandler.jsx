@@ -1,14 +1,14 @@
 import React from "react";
 import Add from "./Add.svg";
 import "./TodoHandler.css";
-import { useState } from "react";
+// import { useState } from "react";
 // import {naoid} from 'naoid'
 
 // const Item = [
 //   {id : naoid(), value : ""}
 // ];
 
-function TodoHandler() {
+function TodoHandler(props) {
 
   // const [addWords, setaddWords] = useState(addWords);
 
@@ -17,13 +17,13 @@ function TodoHandler() {
   //   words.find((item) => item.id === id).value = value;
   // }
 
-  const isColor = useState("");
   
 
     return (
-        <div className="bloc">
+      <div>
+        <div className="bloc" style={{backgroundColor: `${props.NewbackgroundColor}`}}>
         <div className="inputButton">
-          <input maxlength="12" style={{backgroundColor : isColor}}></input>
+          <input maxlength="12"></input>
           <button className="add">
             <img
               src={Add}
@@ -33,6 +33,11 @@ function TodoHandler() {
           </button>
         </div>
       </div>
+      <div className="content-list">
+
+      </div>
+      </div>
+
     );
   }
   
