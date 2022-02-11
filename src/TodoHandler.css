@@ -1,3 +1,11 @@
+.contain{
+  border: 0.3px solid rgb(256, 256, 256);
+  width: auto;
+  height: auto;
+  background-color: #e9e3e3;
+  box-shadow: 0px 3px 6px rgb(224, 224, 224);
+  border-radius: 20px;
+}
 
 .element {
   position: relative;
@@ -29,7 +37,7 @@
   background-color: var(--app-blue);
 }
 .checkmark:after {
-  content: '';
+  content: "";
   position: absolute;
   display: none;
 }
@@ -48,19 +56,19 @@
   transform: rotate(45deg);
 }
 
-.bloc{
-    border: 0.3px solid rgb(256, 256, 256);
-    width: 335px;
-    height: 55px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    background-color: #f5f5f5;
-    box-shadow: 0px 3px 6px rgb(224, 224, 224);
-    border-radius: 20px;
+.bloc {
+  border: 0.3px solid rgb(256, 256, 256);
+  width: 335px;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 3px 6px rgb(224, 224, 224);
+  border-radius: 20px;
 }
 
 input {
@@ -83,32 +91,32 @@ input:hover {
   background-color: #b16ff3;
 }
 
-.inputButton{
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-    margin-top: 6px;
+.inputButton {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 6px;
 }
 
-.add:hover{
-    box-shadow: 0px 3px 8px #707070;
+.add:hover {
+  box-shadow: 0px 3px 8px #707070;
 }
 
-.add{
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 100px;
-    border: none;
+.add {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 100px;
+  border: none;
 }
 
-.addSvg{
-    margin-left: -6px;
-    margin-top: -1px;
+.addSvg {
+  margin-left: -6px;
+  margin-top: -1px;
 }
 
-.content-list{
+.content-list {
   border: 0.3px solid rgb(256, 256, 256);
   width: 335px;
   height: 350px;
@@ -150,7 +158,7 @@ input:hover {
   border: 1px solid rgb(256, 256, 256);
   background-color: white;
   height: 43px;
-  width: 300px;
+  width: 350px;
   color: black;
   margin-left: 10px;
   border-radius: 20px;
@@ -164,7 +172,7 @@ input:hover {
 
 .supp {
   position: absolute;
-  left: 280px;
+  left: 270px;
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 30px;
@@ -176,4 +184,51 @@ input:hover {
 .supp:hover {
   color: #970101;
   box-shadow: 0px 3px 8px #707070;
+}
+
+.bloc3 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: rgb(256, 256, 256) solid 1px;
+  height: 70px;
+  width: 500px;
+  background-color: #f5f5f5cc;
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px rgb(224, 224, 224);
+}
+.nbItems {
+  font-size: 15px;
+  max-width: 35%;
+  padding-left: 5px;
+  margin-top: 25px;
+}
+strong {
+  color: red;
+}
+.clear {
+  border: none;
+  border-radius: 50px;
+  border-color: #f5f5f5;
+  font-size: 15px;
+}
+.clear:hover {
+  color: #b16ff3;
+}
+.filtres {
+  margin-top: 4%;
+}
+.filtre {
+  border: none;
+  font-size: 15px;
+  color: #838080;
+}
+.filtre:hover {
+  text-shadow: 0px 3px 8px #707070;
+}
+.filtre:focus {
+  border: 2px solid #b16ff3;
 }
