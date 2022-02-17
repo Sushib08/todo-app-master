@@ -71,7 +71,7 @@
   border-radius: 20px;
 }
 
-input {
+/* input {
   width: 240px;
   border: none;
   box-shadow: 0px 3px 6px rgb(224, 224, 224);
@@ -79,7 +79,7 @@ input {
   font-size: 30px;
   text-align: center;
   outline: none;
-}
+} */
 
 div input:focus {
   border: 1px solid #7494ff;
