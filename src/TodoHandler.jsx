@@ -78,12 +78,13 @@ function TodoHandler(props) {
   };
 
   return (
-    <div className="contain">
+    <div class="w-auto h-auto bg-zinc-200 drop-shadow-lg rounded-3xl">
       <div
-        className="bloc"
+        class="h-24 w-72 mx-auto mt-3 rounded-full bg-zinc-200 drop-shadow-lg"
+        // w-72 h-16 flex mx-auto mt-72 bg-zinc-200 rounded-3xl drop-shadow-lg
         style={{ backgroundColor: `${props.NewbackgroundColor}` }}
       >
-        <div className="inputButton">
+        <div class="w-60 h-20 flex justify-center border-none drop-shadow-lg rounded-3xl text-3xl">
           <input maxLength="12" ref={inputRef} />
           <button
             className="add"
